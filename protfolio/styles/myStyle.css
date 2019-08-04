@@ -1,0 +1,125 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap&subset=hebrew');
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+}
+p {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: underline;
+    font-weight:700;
+    color:black;
+}
+
+#header {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 45pt;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 100;
+    padding: 40px;
+}
+
+.imgDiv img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+    .imgDiv img:hover {
+        -webkit-filter: grayscale(0);
+        filter: none;
+        transition: 0.5s ease-out;
+    }
+
+#imagesContainerSecond {
+    display: inline-block;
+}
+
+img {
+    float: right;
+}
+
+.minWidth {
+    width: 30%;
+}
+
+.maxWidth {
+    width: 40%;
+}
+
+.maxHieght {
+    height: 600px;
+}
+
+.minHieght {
+    height: 300px;
+}
+
+.up {
+    margin-top: -300px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    margin-top: -3px;
+}
+
+    #footer p:last-child {
+        margin-top: 20px;
+    }
+/*pages*/
+
+.flexDiv {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.pDiv {
+    width: 35%;
+    padding: 20px;
+    font-size:14pt;
+}
+
+    .pDiv p {
+        top: 50%;
+        position: relative;
+    }
+
+.bigImages {
+    width: 30%;
+}
+
+
+.smallImages {
+    width: 50%;
+}
+
+.imgWiedth {
+    width: 100%;
+    padding:20px;
+}
+
+/*interactive*/
+.flexDivNoJustify {
+    display: flex;
+    padding: 50px;
+    margin-right: 5%;
+}
+
+iframe{
+    width:250%;
+    height:250%;
+}
